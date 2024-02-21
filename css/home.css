@@ -1,0 +1,36 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1em;
+  padding: 0 3%;
+}
+
+header a{
+    text-decoration: none;
+}
+
+.nav-logo img{
+    display: flex;
+    height: 4em;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 3em;
+}
+
+
+.nav-other {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.nav-other > div img{
+    width: 2em;
+    height: 2em;
+    align-items: center;
+}
