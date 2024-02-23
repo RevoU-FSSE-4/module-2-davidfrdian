@@ -6,7 +6,7 @@
     <meta name="author" content="David Ferdian" />
     <meta name="keywords" content="HTML, CSS, JavaScript" />
     <title>Spider Club</title>
-    <link rel="icon" href="./images/logo-short.png">
+    <link rel="icon" href="./images/logo-short.png" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,17 +17,18 @@
 
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
   </head>
   <body>
     <header>
       <nav class="nav-logo">
-        <a href="#"
+        <a href="index.html"
           ><img src="./images/logo-long.png" alt="Logo Spider Club"
         /></a>
       </nav>
       <nav class="nav-menu">
-        <a href="#">Home</a>
-        <a href="#">Explore</a>
+        <a href="index.html">Home</a>
+        <a href="explore.html">Explore</a>
         <a href="#">About</a>
       </nav>
       <nav class="nav-other">
@@ -42,7 +43,74 @@
       <h1>Welcome to your most comfortable place!</h1>
 
       <div class="hero-banner">
-        <img src="./images/hero-spiderman-symbol.webp" alt="Symbol of Spiderman">
+        <img
+          src="./images/hero-spiderman-symbol.webp"
+          alt="Symbol of Spiderman"
+        />
+      </div>
+
+      <div class="carousel-slides">
+        <picture id="slide-1">
+          <source
+            media="(min-width:821px)"
+            srcset="./images/carousel-dekstop-symbol.jpg"
+          />
+          <source
+            media="(min-width:451px)"
+            srcset="./images/carousel-tablet-symbol.jpg"
+          />
+          <img
+            src="./images/carousel-mobile-symbol.jpg"
+            alt="Symbol of Spiderman"
+          />
+        </picture>
+        <picture id="slide-2">
+          <source
+            media="(min-width:821px)"
+            srcset="./images/carousel-dekstop-assemble.jpg"
+          />
+          <source
+            media="(min-width:451px)"
+            srcset="./images/carousel-tablet-assemble.jpg"
+          />
+          <img
+            src="./images/carousel-mobile-assemble.jpg"
+            alt="Assemble all Spiderman"
+          />
+        </picture>
+        <picture id="slide-3">
+          <source
+            media="(min-width:821px)"
+            srcset="./images/carousel-dekstop-peter.jpg"
+          />
+          <source
+            media="(min-width:451px)"
+            srcset="./images/carousel-tablet-peter.jpg"
+          />
+          <img src="./images/carousel-mobile-peter.jpg" alt="Peter Parker" />
+        </picture>
+        <picture id="slide-4">
+          <source
+            media="(min-width:821px)"
+            srcset="./images/carousel-dekstop-miles.jpg"
+          />
+          <source
+            media="(min-width:451px)"
+            srcset="./images/carousel-tablet-miles.jpg"
+          />
+          <img src="./images/carousel-mobile-miles.jpg" alt="Miles Morales" />
+        </picture>
+        <picture id="slide-5">
+          <source
+            media="(min-width:821px)"
+            srcset="./images/carousel-dekstop-gwen.jpg"
+          />
+          <source
+            media="(min-width:451px)"
+            srcset="./images/carousel-tablet-gwen.jpg"
+          />
+          <img src="./images/carousel-mobile-gwen.jpg" alt="Gwen Stacy" />
+        </picture>
       </div>
       <div class="carousel-slider">
         <a href="#slide-1">1</a>
@@ -51,33 +119,6 @@
         <a href="#slide-4">4</a>
         <a href="#slide-5">5</a>
       </div>
-        <div class="carousel-slides">
-          <picture id="slide-1">
-            <source media="(min-width:821px)" srcset="./images/carousel-dekstop-symbol.jpg">
-            <source media="(min-width:451px)" srcset="./images/carousel-tablet-symbol.jpg">
-            <img src="./images/carousel-mobile-symbol.jpg" alt="Symbol of Spiderman">
-          </picture>
-          <picture id="slide-2">
-            <source media="(min-width:821px)" srcset="./images/carousel-dekstop-assemble.jpg">
-            <source media="(min-width:451px)" srcset="./images/carousel-tablet-assemble.jpg">
-            <img src="./images/carousel-mobile-assemble.jpg" alt="Assemble all Spiderman">
-          </picture>
-          <picture id="slide-3">
-            <source media="(min-width:821px)" srcset="./images/carousel-dekstop-peter.jpg">
-            <source media="(min-width:451px)" srcset="./images/carousel-tablet-peter.jpg">
-            <img src="./images/carousel-mobile-peter.jpg" alt="Peter Parker">
-          </picture>
-          <picture id="slide-4">
-            <source media="(min-width:821px)" srcset="./images/carousel-dekstop-miles.jpg">
-            <source media="(min-width:451px)" srcset="./images/carousel-tablet-miles.jpg">
-            <img src="./images/carousel-mobile-miles.jpg" alt="Miles Morales">
-          </picture>
-          <picture id="slide-5">
-            <source media="(min-width:821px)" srcset="./images/carousel-dekstop-gwen.jpg">
-            <source media="(min-width:451px)" srcset="./images/carousel-tablet-gwen.jpg">
-            <img src="./images/carousel-mobile-gwen.jpg" alt="Gwen Stacy">
-          </picture>
-        </div>
     </main>
 
     <footer>

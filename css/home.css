@@ -125,7 +125,7 @@ main h1 {
   align-items: center;
   width: 100%;
   object-fit: cover;
-  margin-bottom: 4em;
+  margin-bottom: 5em;
 }
 
 .carousel-slider {
@@ -133,7 +133,8 @@ main h1 {
   gap: 0.5em;
   width: 100%;
   justify-content: center;
-  margin: 1em 0;
+  transform: translateY(-11em);
+  position: absolute;
 }
 
 .carousel-slider a {
@@ -143,7 +144,7 @@ main h1 {
   color: #1a1c24;
   font-weight: 500;
   text-decoration: none;
-  background-color: #ffff;
+  background-color: #e2e2e2;
   justify-content: center;
   align-items: center;
   text-align: center;
