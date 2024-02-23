@@ -82,6 +82,10 @@ h1 {
   justify-content: center;
 }
 
+.carousel-container {
+  width: 85vmin;
+}
+
 footer p {
   display: flex;
   justify-content: center;
