@@ -4,3 +4,16 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
+.nav-mobile i {
+  color: #ffff;
+}
+
+.nav-mobile {
+  font-size: 1.5em;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  display: none;
+}
+

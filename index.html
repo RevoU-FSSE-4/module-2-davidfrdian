@@ -15,6 +15,11 @@
       rel="stylesheet"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/home.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
@@ -26,17 +31,23 @@
           ><img src="./images/logo-long.png" alt="Logo Spider Club"
         /></a>
       </nav>
-      <nav class="nav-menu">
-        <a href="index.html">Home</a>
-        <a href="explore.html">Explore</a>
-        <a href="#">About</a>
+      <nav id="navigation">
+        <nav class="nav-menu">
+          <a href="index.html">Home</a>
+          <a href="explore.html">Explore</a>
+          <a href="#">About</a>
+          <nav class="nav-other">
+            <span><a href="#">Log in</a></span>
+            <a href="#">Sign up</a>
+            <div>
+              <img src="./images/miles-head.png" alt="Mode Miles Morales" />
+            </div>
+          </nav>
+        </nav>
       </nav>
-      <nav class="nav-other">
-        <span><a href="#">Log in</a></span>
-        <a href="#">Sign up</a>
-        <div>
-          <img src="./images/miles-head.png" alt="Mode Miles Morales" />
-        </div>
+      <nav class="nav-mobile">
+        <i class="fa-solid fa-bars" id="menu"></i>
+        <i class="fa-solid fa-xmark" id="x"></i>
       </nav>
     </header>
     <main>
