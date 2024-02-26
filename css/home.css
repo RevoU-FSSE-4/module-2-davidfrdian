@@ -9,12 +9,11 @@ header {
   align-items: center;
   font-size: 1em;
   padding: 0 3%;
-  position:sticky;
+  position: sticky;
   top: 0;
   background-color: #1a1c24;
   z-index: 1;
 }
-
 header a {
   text-decoration: none;
   font-weight: 600;
@@ -61,25 +60,154 @@ header a {
   cursor: pointer;
 }
 
-.nav-other a {
+.nav-other button {
   color: #1a1c24;
   padding: 10px;
   background-color: #e2e2e2;
   border-radius: 20px;
+  border: 0;
+  font-weight: 600;
   transition: 0.3s ease;
 }
 
-.nav-other span a {
+.nav-other span button {
   background-color: #e32026;
   color: #ffff;
 }
 
-.nav-other a:hover {
+.nav-other button:hover {
   filter: brightness(85%);
+  cursor: pointer;
 }
 
 main {
   margin-top: 3em;
+}
+
+.popup-login {
+  position: fixed;
+  z-index: 3;
+  top: -150%;
+  left: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(1.25);
+  max-width: 50vw;
+  background-color: #e2e2e2;
+  padding: 4em;
+  box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  transition: top 300ms ease-in-out 200ms, opacity 200ms ease-in-out 0ms,
+    transform 200ms ease-in-out 0ms;
+}
+
+.popup-login.active {
+  top: 50%;
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.close-btn-login {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+
+  color: #1a1c24;
+  cursor: pointer;
+  text-align: center;
+}
+
+.close-btn-login i {
+  text-align: center;
+  padding: 3px;
+  border-radius: 50%;
+  transition: 0.2s ease-in-out;
+}
+
+.close-btn-login i:hover {
+  transform: scale(1.2);
+}
+
+.form-login img {
+  display: flex;
+  height: 3em;
+  border-radius: 50%;
+  left: 45%;
+  right: 45%;
+  position: relative;
+  margin-bottom: 3em;
+}
+
+.form-login h2 {
+  text-align: center;
+  color: #1a1c24;
+  font-size: 2em;
+  margin: 1em 0px 1.5em;
+}
+
+.login-element {
+  margin: 1em 0;
+}
+
+.login-element input {
+  padding: 10px;
+  margin-top: 1em;
+  display: block;
+  width: 100%;
+  outline: none;
+  border: 0;
+  border-radius: 10px;
+}
+
+.login-element input:hover {
+  border: 1px solid #aaa;
+}
+
+.login-element input:focus {
+  border: 2.5px solid #aaa;
+}
+
+.login-element input[type="submit"] {
+  outline: 0;
+  border: 0;
+  border-radius: 2em;
+  background-color: #e32026;
+  color: #ffff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login-element input[type="submit"]:hover {
+  filter: brightness(85%);
+}
+
+.login-element a {
+  color: #1a1c24;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1em;
+  display: block;
+  margin: 1em 0 1.5em;
+  text-align: left;
+  width: fit-content;
+}
+
+.login-element a:hover {
+  text-decoration: underline #1a1c24;
+}
+
+.form-login a {
+  color: #1a1c24;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1em;
+  display: block;
+  margin: 2em 0 0;
+  display: block;
+  text-align: center;
+}
+
+.form-login a:hover {
+  text-decoration: underline;
 }
 
 main h1 {

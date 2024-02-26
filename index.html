@@ -37,8 +37,8 @@
           <a href="explore.html">Explore</a>
           <a href="#">About</a>
           <nav class="nav-other">
-            <span><a href="#">Log in</a></span>
-            <a href="#">Sign up</a>
+            <span><button id="showLogin">Log in</button></span>
+            <button>Sign up</button>
             <div>
               <img src="./images/miles-head.png" alt="Mode Miles Morales" />
             </div>
@@ -51,6 +51,30 @@
       </nav>
     </header>
     <main>
+      <div class="popup-login">
+        <div class="close-btn-login">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="form-login">
+          <img src="./images/logo-short.png" alt="Spider Club Logo" />
+          <h2>Welcome to Spider Club!</h2>
+          <div class="login-element">
+            <form>
+              <input type="email" id="emailLogin" placeholder="Email" />
+              <input
+                type="password"
+                id="passwordLogin"
+                placeholder="Password"
+              />
+
+              <a href="#">Forgot your password?</a>
+
+              <input type="submit" id="submitLogin" value="Log in" />
+            </form>
+          </div>
+          <a href="#">haven't an account yet? Sign up</a>
+        </div>
+      </div>
       <h1>Welcome to your most comfortable place!</h1>
 
       <div class="hero-banner">
@@ -135,5 +159,7 @@
     <footer>
       <p>Copyright &copy; 2024 All Rights Reserved.</p>
     </footer>
+
+  <script src="js/index.js"></script>
   </body>
 </html>

@@ -8,3 +8,12 @@ document.querySelector("#menu").onclick = () => {
     menu.classList.toggle("x");
 }
 
+
+// login button
+document.querySelector("#showLogin").addEventListener("click", function(){
+    document.querySelector(".popup-login").classList.add("active");
+});
+
+document.querySelector(".close-btn-login").addEventListener("click", function(){
+    document.querySelector(".popup-login").classList.remove("active");
+})

@@ -68,6 +68,10 @@
     .navigation .active {
       right: 0;
     }
+
+    .popup-login{
+      min-width: 70vw;
+    }
   }
 }
 
