@@ -33,14 +33,81 @@
         <input type="search" placeholder="search here..." class="search-bar" />
       </nav>
       <nav class="nav-other">
-        <span><a href="#">Log in</a></span>
-        <a href="#">Sign up</a>
+        <span><button id="showLogin">Log in</button></span>
+        <button id="showSignup">Sign up</button>
         <div>
           <img src="./images/miles-head.png" alt="Mode Miles Morales" />
         </div>
       </nav>
     </header>
     <main>
+      <!-- login -->
+      <div class="popup-login">
+        <div class="close-btn-login">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="form-login">
+          <img src="./images/logo-short.png" alt="Spider Club Logo" />
+          <h2>Welcome to Spider Club!</h2>
+          <div class="login-element">
+            <form>
+              <input type="email" id="emailLogin" placeholder="Email" />
+              <input
+                type="password"
+                id="passwordLogin"
+                placeholder="Password"
+              />
+
+              <a href="#">Forgot your password?</a>
+
+              <input type="submit" id="submitLogin" value="Log in" />
+            </form>
+          </div>
+          <a href="#">Haven't an account yet? Sign up</a>
+        </div>
+      </div>
+
+      <!-- sign up -->
+      <div class="popup-signup">
+        <div class="close-btn-signup">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="form-signup">
+          <img src="./images/logo-short.png" alt="Spider Club Logo" />
+          <h2>Create Your Account!</h2>
+          <div class="signup-element">
+            <form>
+              <label for="fullNameSignup">Full Name</label>
+              <input
+                type="text"
+                id="fullNameSignup"
+                placeholder="Type your name"
+              />
+
+              <label for="emailSignup">Email</label>
+              <input
+                type="email"
+                id="emailSignup"
+                placeholder="Type your email"
+              />
+
+              <label for="passwordSignup">Password</label>
+              <input
+                type="password"
+                id="passwordSignup"
+                placeholder="Create your password"
+              />
+
+              <label for="birthdateSignup">Birthdate</label>
+              <input type="date" id="birthdateSignup" />
+
+              <input type="submit" id="submitSignup" value="Sign up" />
+            </form>
+          </div>
+          <a href="#showLogin">Already have an account? Log in</a>
+        </div>
+      </div>
+
       <div class="grid-container">
         <div class="grid-box">
           <img src="./images/gris-asset-1.jpg" alt="Grid Content 1" />
@@ -197,5 +264,7 @@
     <footer>
       <p>Copyright &copy; 2024 All Rights Reserved.</p>
     </footer>
+
+    <script src="js/index.js"></script>
   </body>
 </html>

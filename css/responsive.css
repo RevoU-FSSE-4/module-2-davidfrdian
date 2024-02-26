@@ -3,6 +3,9 @@
     .carousel-slider {
       transform: translateY(-12em);
     }
+    .popup-signup{
+      width: 40vw;
+    }
   }
 }
 
@@ -14,6 +17,7 @@
     .grid-container {
       columns: 3;
     }
+
   }
 }
 
@@ -69,7 +73,11 @@
       right: 0;
     }
 
-    .popup-login{
+    .popup-login {
+      min-width: 70vw;
+    }
+
+    .popup-signup {
       min-width: 70vw;
     }
   }
