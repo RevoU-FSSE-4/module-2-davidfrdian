@@ -1,0 +1,10 @@
+
+
+  @media screen and (max-width: 768px) {
+    html {
+      .navigation{
+        width: 40vw;
+        height: 380px;
+      }
+    }
+  }
