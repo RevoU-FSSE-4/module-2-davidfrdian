@@ -55,6 +55,7 @@
 
     .nav-menu input[type="search"] {
       order: -1;
+      width: 35vw;
     }
 
     .navigation {

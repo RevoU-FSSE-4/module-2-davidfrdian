@@ -1,23 +1,22 @@
-// // when click menu bar
-// let menu = document.getElementById("menu");
-// let navigation = document.querySelector(".navigation");
-// let x = document.getElementById("x");
+// when click menu bar
+let menu = document.getElementById("menu");
+let navigation = document.querySelector(".navigation");
+let x = document.getElementById("x");
 
-// menu.addEventListener("click",function(){
-//   navigation.classList.toggle("active");
-//   x.style.display = "inline-flex";
-//   menu.style.display = "none";
-// })
+menu.addEventListener("click",function(){
+  navigation.classList.toggle("active");
+  x.style.display = "inline-flex";
+  menu.style.display = "none";
+})
 
-// // for close menu navigation beyond the content
-// document.addEventListener("click", function (e) {
-//   if (!menu.contains(e.target) && !navigation.contains(e.target)) {
-//     navigation.classList.remove("active");
-//     x.style.display = "none";
-//     menu.style.display = "inline-flex";
-//   }
-// });
-
+// for close menu navigation beyond the content
+document.addEventListener("click", function (e) {
+  if (!menu.contains(e.target) && !navigation.contains(e.target)) {
+    navigation.classList.remove("active");
+    x.style.display = "none";
+    menu.style.display = "inline-flex";
+  }
+});
 
 // login button
 let showLogin = document.getElementById("showLogin");
