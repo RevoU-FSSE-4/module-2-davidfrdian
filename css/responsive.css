@@ -65,17 +65,17 @@
       padding: 2px;
       position: absolute;
       top: 8vh;
-      right: -50%;
+      right: 3vw;
       background-color: #e2e2e2;
-      transition: 0.2s ease;
+      transition: 0.3s ease;
       z-index: 4;
       box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
       border-radius: 10px;
+      opacity: 0;
     }
 
     .navigation.active {
-      top: 8vh;
-      right: 3vw;
+      opacity: 1;
     }
 
     .nav-menu {
