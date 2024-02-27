@@ -8,3 +8,13 @@
       }
     }
   }
+
+  @media screen and (max-width: 450px) {
+    html {
+      .navigation{
+        width: 40vw;
+        height: 300px;
+      }
+    }
+  }
+  
