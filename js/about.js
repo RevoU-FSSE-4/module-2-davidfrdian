@@ -57,3 +57,20 @@ document.addEventListener("click", function (e) {
     popupSignup.classList.remove("active");
   }
 });
+
+// Read more about us
+function readmore() {
+  let dots = document.querySelector(".dots");
+  let more = document.querySelector(".more");
+  let readmoreBtn = document.getElementById("readmoreBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    readmoreBtn.innerHTML = "Read more";
+    more.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    readmoreBtn.innerHTML = "Read less";
+    more.style.display = "inline";
+  }
+}
