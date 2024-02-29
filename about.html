@@ -1,57 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="author" content="David Ferdian" />
-        <meta name="keywords" content="HTML, CSS, JavaScript" />
-        <title>Spider Club</title>
-        <link rel="icon" href="./images/logo-short.png" />
-    
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
-          rel="stylesheet"
-        />
-    
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        />
-    
-        <link rel="stylesheet" href="./css/style.css" />
-        <link rel="stylesheet" href="./css/about.css" />
-        <link rel="stylesheet" href="./css/responsive.css" />
-      </head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="David Ferdian" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <title>Spider Club</title>
+    <link rel="icon" href="./images/logo-short.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body>
     <header>
-        <nav class="nav-logo">
-          <a href="index.html"
-            ><img src="./images/logo-long.png" alt="Logo Spider Club"
-          /></a>
-        </nav>
-        <nav class="navigation">
-          <nav class="nav-menu">
-            <a href="index.html">Home</a>
-            <a href="./explore.html">Explore</a>
-            <a href="./about.html">About</a>
-            <nav class="nav-other">
-              <span><button id="showLogin">Log in</button></span>
-              <button id="showSignup">Sign up</button>
-              <div>
-                <img src="./images/miles-head.png" alt="Mode Miles Morales" />
-              </div>
-            </nav>
+      <nav class="nav-logo">
+        <a href="index.html"
+          ><img src="./images/logo-long.png" alt="Logo Spider Club"
+        /></a>
+      </nav>
+      <nav class="navigation">
+        <nav class="nav-menu">
+          <a href="index.html">Home</a>
+          <a href="./explore.html">Explore</a>
+          <a href="./about.html">About</a>
+          <nav class="nav-other">
+            <span><button id="showLogin">Log in</button></span>
+            <button id="showSignup">Sign up</button>
+            <div>
+              <img src="./images/miles-head.png" alt="Mode Miles Morales" />
+            </div>
           </nav>
         </nav>
-        <nav class="nav-mobile">
-          <i class="fa-solid fa-bars" id="menu"></i>
-          <i class="fa-solid fa-xmark" id="x"></i>
-        </nav>
-      </header>
-      <main>
-              <!-- login -->
+      </nav>
+      <nav class="nav-mobile">
+        <i class="fa-solid fa-bars" id="menu"></i>
+        <i class="fa-solid fa-xmark" id="x"></i>
+      </nav>
+    </header>
+    <main>
+      <!-- login -->
       <div class="popup-login">
         <div class="close-btn-login">
           <i class="fa-solid fa-xmark"></i>
@@ -88,10 +88,18 @@
           <div class="signup-element">
             <form>
               <label for="fullNameSignup">Full Name</label>
-              <input type="text" id="fullNameSignup" placeholder="Type your name" />
+              <input
+                type="text"
+                id="fullNameSignup"
+                placeholder="Type your name"
+              />
 
               <label for="emailSignup">Email</label>
-              <input type="email" id="emailSignup" placeholder="Type your email" />
+              <input
+                type="email"
+                id="emailSignup"
+                placeholder="Type your email"
+              />
 
               <label for="passwordSignup">Password</label>
               <input
@@ -109,11 +117,27 @@
           <a href="#">Already have an account? Log in</a>
         </div>
       </div>
-      </main>
-      <footer>
-        <p>Copyright &copy; 2024 All Rights Reserved.</p>
-      </footer>
 
-      <script src="./js/about.js"></script>
-</body>
+      <!-- profile developer -->
+      <div class="profile-container">
+        <div class="profile-card">
+          <img src="./images/profile-photo.jpeg" />
+          <div class="profile-caption">
+            <h3>David Ferdian</h3>
+            <p>Full Stack Developer</p>
+            <div class="profile-social-links">
+              <a href="https://www.instagram.com/david_f.h/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/davidferdian/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/davidfrdian" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Copyright &copy; 2024 All Rights Reserved.</p>
+    </footer>
+
+    <script src="./js/about.js"></script>
+  </body>
 </html>
