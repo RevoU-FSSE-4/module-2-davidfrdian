@@ -6,6 +6,9 @@ and [click here](https://spiderclub.site/) to see our website after use custom d
 ## Table of Contents
 - [Introduction](#introduction)
 - [Deployment](#deployment)
+    - [Vercel Sign up & Login](#vercel-sign-up--connect-with-github)
+    - [Deployment on Vercel](#deployment-on-vercel)
+    - [Setting Custom Domain](#setting-custom-domain-with-vercel-niagahoster-and-cloudflare)
 - [Author](#author)
 
 ## Introduction
