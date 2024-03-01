@@ -1,6 +1,6 @@
 # Spider Club
 
-[Click here!🕷️🕸️](https://module-2-davidfrdian.vercel.app/)
+[Click here!🕷️🕸️](https://www.spiderclub.site/)
 
 # Author
 LinkedIn : [David Ferdian](https://www.linkedin.com/in/davidferdian)<br>
